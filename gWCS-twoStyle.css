@@ -1,0 +1,44 @@
+h1 {
+
+    font-size:      10pt;
+}
+
+.inputs {
+    border:                 1px solid red;
+    display:                grid;
+    grid-template-columns:  auto;
+    justify-content:        center;
+    flex-direction:         column;
+    margin:                 2%;
+    padding:                6%;
+    padding-right:          10%;
+    padding-left:           10%;
+    align-objects:          center;
+
+}
+
+fieldset {
+
+    margin-right:       75%;
+    padding:            4%;
+}
+
+input {
+
+    display:                flex;
+    border:                 1px solid red;
+    justify-content:        space-around;
+    margin:                 4%;
+}
+
+.formRow {
+
+    border:                 2px solid red;
+    display:                flex;
+    justify-content:        space-around;
+    margin-right:           10%;
+    margin-left:            10%;
+    padding-top:            1%;
+    padding-bottom:         1%;
+
+}
