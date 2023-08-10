@@ -1,3 +1,10 @@
+
+.buttonHead {
+
+    border:             1px solid seagreen;
+    border-radius:      8px;
+}
+
 h1 {
     font-size:      10pt;
 }

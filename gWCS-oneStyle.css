@@ -3,3 +3,10 @@
     border:             1px solid seagreen;
     border-radius:      8px;
 }
+
+.images {
+    display:                grid;
+    grid-template-columns:  auto auto auto auto auto;
+
+
+}
