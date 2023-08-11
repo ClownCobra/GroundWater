@@ -1,4 +1,7 @@
-
+body {
+    background-image: url("GWD-Fourteen.png");
+    background-color:    black;
+}
 .buttonHead {
 
     border:             1px solid seagreen;
@@ -22,6 +25,7 @@ h1 {
     padding-right:          10%;
     padding-left:           10%;
     align-objects:          center;
+
 
 }
 
@@ -53,6 +57,7 @@ input {
     margin-left:            10%;
     padding-top:            1%;
     padding-bottom:         1%;
+    min-width:              500px;
 }
 
 form{
@@ -65,4 +70,10 @@ form{
 
     border:                 3px dotted darkmagenta;
 
+}
+
+#ace {
+    position: relative;
+    top: 200px;
+    right: -300px;
 }

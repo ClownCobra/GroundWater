@@ -1,12 +1,87 @@
+body {
+
+    background-color:   gray;
+    border:             150px ridge black;
+    min-width:          610px;
+}
+
 .buttonHead {
 
     border:             1px solid seagreen;
     border-radius:      8px;
+    position: relative;
+    top:        -85px;
+    right: -355px;
+
+}
+
+.intro {
+    position: relative;
+    display: flex;
+    right: 6px;
+    top: -123px;
+    font-size: 43pt;
+    justify-content: center;
+    align-items: center;
+
+}
+
+h2 {
+    position: relative;
+    left: 450px;
+    top: -70px;
+    font-size: 40pt;
+}
+.bottom {
+    position: relative;
+    top: -275px;
 }
 
 .images {
+
     display:                grid;
     grid-template-columns:  auto auto auto auto auto;
+    justify-content:        space-evenly;
+    border:                 1px solid  orangered;
+    margin:                 5%;
+    padding:                .1%;
+    background-color:       aquamarine;
+    right:                  20px;
+    bottom:                 1px;
+    position:               relative;
+    top:     -48px;
+    left:                   0%;
+}
+
+.cards {
+
+    border:                 3px ridge goldenrod;
+    margin:                 4%;
+    padding:                 1px;
+    position:                relative;
+    left:                   -4%;
+}
+
+.lacunaLagoon {
+
+    border: solid 1px red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items:center;
+    margin-left: 41.5%;
+    margin-right: 5.5%;
+    padding-right: 3px;
+    padding-left:   3px;
+    font-size: 8.5pt;
+    position: relative;
+    bottom: 197px;
+}
+
+.agatha {
+    display:flow-root;
+    margin:     1%;
+    border:     2px ridge goldenrod;
 
 
 }
