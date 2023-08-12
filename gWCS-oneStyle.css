@@ -18,12 +18,18 @@ body {
 .intro {
     position: relative;
     display: flex;
+    flex-direction: row;
     right: 6px;
     top: -123px;
     font-size: 43pt;
-    justify-content: center;
-    align-items: center;
+    justify-content: cener;
+    align-items: ceter;
 
+}
+
+.twentytwo {
+    position: relative;
+    bottom: 210px;
 }
 
 h2 {
@@ -42,10 +48,10 @@ h2 {
     display:                grid;
     grid-template-columns:  auto auto auto auto auto;
     justify-content:        space-evenly;
-    border:                 1px solid  orangered;
+    border:                 1px solid  rgb(81, 21, 0);
     margin:                 5%;
     padding:                .1%;
-    background-color:       aquamarine;
+    background-color:                                     rgb(78, 109, 91);
     right:                  20px;
     bottom:                 1px;
     position:               relative;
@@ -55,7 +61,7 @@ h2 {
 
 .cards {
 
-    border:                 3px ridge goldenrod;
+    border:                 3px ridge rgb(123, 104, 56);
     margin:                 4%;
     padding:                 1px;
     position:                relative;
@@ -64,7 +70,8 @@ h2 {
 
 .lacunaLagoon {
 
-    border: solid 1px red;
+    border: solid 1px rgb(118, 64, 46);
+    background-color: rgb(87, 162, 137);
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -81,7 +88,7 @@ h2 {
 .agatha {
     display:flow-root;
     margin:     1%;
-    border:     2px ridge goldenrod;
+    border:     2px ridge rgb(141, 114, 48);
 
 
 }
