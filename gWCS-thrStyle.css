@@ -63,8 +63,9 @@ h1 {
 .text {
     position: relative;
     right: 30%;
-    border: 15px ridge rgb(56, 96, 23);
+    border: 13px ridge rgb(56, 96, 23);
     border-radius: 15px;
+    padding: 3px;
 
 
 
@@ -72,8 +73,9 @@ h1 {
 
 .textTwo{
     position: relative;
-    left: 230%;
-    border: 15px ridge rgb(127, 100, 17);
+    left: 220%;
+    border: 13px ridge rgb(127, 100, 17);
     border-radius: 15px;
+    padding: 3px;
 
 }
