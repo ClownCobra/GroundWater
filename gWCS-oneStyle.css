@@ -92,3 +92,10 @@ h2 {
 
 
 }
+
+.sink {
+    width: 400px;
+    height:60px;
+    display: flex;
+    justify-content: space-evenly;
+}
